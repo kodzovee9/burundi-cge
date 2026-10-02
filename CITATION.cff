@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this model or its results, please cite it as below."
+title: "A recursive-dynamic CGE model of Burundi with a dual exchange-rate market and foreign-exchange rationing of fuel"
+type: software
+authors:
+  - family-names: Abalo
+    given-names: Kodzovi Senu
+    affiliation: "World Bank, Fiscal Policy and Growth Global Department"
+version: "2026.10.02"
+date-released: "2026-10-02"
+license: MIT
+keywords:
+  - computable general equilibrium
+  - Burundi
+  - dual exchange rate
+  - foreign-exchange rationing
+  - fuel shortage
+references:
+  - type: software
+    title: "GEM-Core: a recursive-dynamic CGE model (GAMS)"
+    authors:
+      - family-names: Lofgren
+        given-names: Hans
+      - family-names: Cicowiez
+        given-names: "Martín"

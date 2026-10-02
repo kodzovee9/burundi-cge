@@ -1,0 +1,477 @@
+[
+ {
+  "finding": "Base year reproduced exactly: largest residual (Appendix A.6.1)",
+  "source": "regex",
+  "file": "reports/logs/baseyear.log",
+  "pattern": "GLOBAL max \\|residual\\| = (\\S+)",
+  "max": 1e-09,
+  "quick": true
+ },
+ {
+  "finding": "Full model, base: GDP growth 2026-40, %/yr (Table A.10)",
+  "source": "csv",
+  "file": "reports/macro-growth-2026-2040.csv",
+  "expected": 2.219,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "base (py)",
+  "quick": true
+ },
+ {
+  "finding": "Full model, uni: GDP growth 2026-40, %/yr (Table A.10)",
+  "source": "csv",
+  "file": "reports/macro-growth-2026-2040.csv",
+  "expected": 3.706,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "uni (py)",
+  "quick": true
+ },
+ {
+  "finding": "Full model, uni+inf: GDP growth 2026-40, %/yr (Table A.10)",
+  "source": "csv",
+  "file": "reports/macro-growth-2026-2040.csv",
+  "expected": 4.228,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "uni+inf (py)",
+  "quick": true
+ },
+ {
+  "finding": "Full model, uni+inf+hd: GDP growth 2026-40, %/yr (Table A.10)",
+  "source": "csv",
+  "file": "reports/macro-growth-2026-2040.csv",
+  "expected": 4.51,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "uni+inf+hd (py)",
+  "quick": true
+ },
+ {
+  "finding": "Full model, combi: GDP growth 2026-40, %/yr (Table A.10)",
+  "source": "csv",
+  "file": "reports/macro-growth-2026-2040.csv",
+  "expected": 4.845,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "combi (py)",
+  "quick": true
+ },
+ {
+  "finding": "Full model, uni: private consumption growth, %/yr (Table A.10)",
+  "source": "csv",
+  "file": "reports/macro-growth-2026-2040.csv",
+  "expected": 3.157,
+  "tol": 0.005,
+  "row": "PrvCon",
+  "col": "uni (py)"
+ },
+ {
+  "finding": "Full model, uni: exports growth, %/yr (Table A.10)",
+  "source": "csv",
+  "file": "reports/macro-growth-2026-2040.csv",
+  "expected": 7.626,
+  "tol": 0.005,
+  "row": "Exports",
+  "col": "uni (py)"
+ },
+ {
+  "finding": "Pass-through θ = 1: uni GDP gain over base, pp/yr (Table A.11)",
+  "source": "csv",
+  "file": "reports/uni-passthrough.csv",
+  "expected": 1.487,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "increment theta=1"
+ },
+ {
+  "finding": "Pass-through θ = 0.75: uni GDP gain over base, pp/yr (Table A.11)",
+  "source": "csv",
+  "file": "reports/uni-passthrough.csv",
+  "expected": 0.858,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "increment theta=0.75"
+ },
+ {
+  "finding": "Pass-through θ = 0.5: uni GDP gain over base, pp/yr (Table A.11)",
+  "source": "csv",
+  "file": "reports/uni-passthrough.csv",
+  "expected": 0.468,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "increment theta=0.5"
+ },
+ {
+  "finding": "Pass-through θ = 0.25: uni GDP gain over base, pp/yr (Table A.11)",
+  "source": "csv",
+  "file": "reports/uni-passthrough.csv",
+  "expected": 0.19,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "increment theta=0.25"
+ },
+ {
+  "finding": "Pass-through θ = 0: uni GDP gain over base, pp/yr (Table A.11)",
+  "source": "csv",
+  "file": "reports/uni-passthrough.csv",
+  "expected": -0.023,
+  "tol": 0.005,
+  "row": "GDPFC",
+  "col": "increment theta=0"
+ },
+ {
+  "finding": "Rent cost ω = 0, uni: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.json",
+  "expected": 15.899,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, uni: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 23.433,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni",
+   "GDPFC"
+  ],
+  "quick": true
+ },
+ {
+  "finding": "Rent cost ω = 0.5, uni: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.5.json",
+  "expected": 31.953,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, uni+bs-inv: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 24.833,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni+bs-inv",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, uni+inf: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 32.416,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni+inf",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, uni+inf-m: GDP at market prices in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 37.352,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni+inf-m",
+   "GDPMP"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, uni+inf-x: GDP at market prices in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 37.62,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni+inf-x",
+   "GDPMP"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, uni+inf+hd-x: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 39.439,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "uni+inf+hd-x",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, combi: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 44.322,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "combi",
+   "GDPFC"
+  ],
+  "quick": true
+ },
+ {
+  "finding": "Rent cost ω = 0.25, combi-x: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 47.433,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "combi-x",
+   "GDPFC"
+  ],
+  "quick": true
+ },
+ {
+  "finding": "Rent cost ω = 0.25, combi-x: GDP at market prices in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 55.602,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "combi-x",
+   "GDPMP"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.25, combi-x: private consumption in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 50.802,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "combi-x",
+   "PrvCon"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0, combi: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.json",
+  "expected": 36.206,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "combi",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Rent cost ω = 0.5, combi: GDP at factor cost in 2040 vs base, % (Tables A.10c-A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.5.json",
+  "expected": 53.499,
+  "tol": 0.05,
+  "path": [
+   "level2040",
+   "combi",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Budget support (uni+bs), ω = 0.25: private consumption in 2027 vs base, % (A.5.4)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 4.576,
+  "tol": 0.05,
+  "path": [
+   "level2027",
+   "uni+bs",
+   "PrvCon"
+  ]
+ },
+ {
+  "finding": "ω = 0.25, combi-x: GDP growth 2026-40, %/yr (Table A.10d)",
+  "source": "json",
+  "file": "reports/reform-boost/omega-0.25.json",
+  "expected": 4.994,
+  "tol": 0.005,
+  "path": [
+   "growth",
+   "combi-x",
+   "GDPFC"
+  ]
+ },
+ {
+  "finding": "Backcast: real GDP growth 2020-24 average (pinned to INSBU), % (Table A.8)",
+  "source": "backcast-avg",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 1.867,
+  "tol": 0.05,
+  "indicator": "Real GDP growth %",
+  "years": [
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "field": "model",
+  "quick": true,
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: real import growth 2020-24 average, model, % (Table A.8)",
+  "source": "backcast-avg",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 0.597,
+  "tol": 0.05,
+  "indicator": "Real imports growth %",
+  "years": [
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "field": "model",
+  "quick": true,
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: real private consumption growth 2020-24 average, model, % (Table A.8)",
+  "source": "backcast-avg",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 1.193,
+  "tol": 0.05,
+  "indicator": "Real PrvCon growth %",
+  "years": [
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: real imports 2024, model, % (Table A.8)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": -11.073,
+  "tol": 0.05,
+  "indicator": "Real imports growth %",
+  "year": "2024",
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: fuel market price over pump price 2024, ×100 (observed 335.4; Table A.8)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 334.442,
+  "tol": 0.1,
+  "indicator": "Fuel: market price / pump price",
+  "year": "2024",
+  "field": "model",
+  "quick": true,
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: informal share of fuel used 2024, % (A.6.3)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 6.116,
+  "tol": 0.05,
+  "indicator": "Fuel: informal share of supply %",
+  "year": "2024",
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: fuel share of official FX 2022, % (Table A.9)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 48.824,
+  "tol": 0.05,
+  "indicator": "Fuel: share of official FX %",
+  "year": "2022",
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: fuel share of official FX 2024, % (Table A.9)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 43.934,
+  "tol": 0.05,
+  "indicator": "Fuel: share of official FX %",
+  "year": "2024",
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast: chemicals and fertiliser share of official FX 2024, % (Table A.9)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024.csv",
+  "expected": 45.207,
+  "tol": 0.05,
+  "indicator": "Chemicals: share of official FX %",
+  "year": "2024",
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast, fuel set by FX alone: fuel price over pump price 2024, ×100 (A.6.3)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024-fuel-fx.csv",
+  "expected": 354.083,
+  "tol": 0.1,
+  "indicator": "Fuel: market price / pump price",
+  "year": "2024",
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast, fuel set by FX alone: fuel price over pump price 2022, ×100 (A.6.3)",
+  "source": "backcast",
+  "file": "reports/backcast-2019-2024-fuel-fx.csv",
+  "expected": 259.624,
+  "tol": 0.1,
+  "indicator": "Fuel: market price / pump price",
+  "year": "2022",
+  "field": "model",
+  "needs_insbu": true
+ },
+ {
+  "finding": "Backcast, chemicals set by FX alone: real import growth 2020-24 average, % (A.5.2)",
+  "source": "backcast-avg",
+  "file": "reports/backcast-2019-2024-chem-fx.csv",
+  "expected": 0.256,
+  "tol": 0.05,
+  "indicator": "Real imports growth %",
+  "years": [
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "field": "model",
+  "needs_insbu": true
+ }
+]

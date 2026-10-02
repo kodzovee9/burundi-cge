@@ -1,0 +1,6 @@
+Burundi CGE model
+Copyright (c) 2026 Kodzovi Senu Abalo
+
+The GAMS files under model/ are GEM-Core, by Hans Lofgren and Martin Cicowiez
+(World Bank), with the Burundi application. They are included so that the
+Python port can be checked against the original; credit them when you use them.

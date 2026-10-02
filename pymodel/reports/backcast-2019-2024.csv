@@ -1,0 +1,152 @@
+indicator,kind,year,model,actual
+PrvCon %GDP,share,2019,90.2931,89.1507
+PrvCon %GDP,share,2020,89.4558,88.1249
+PrvCon %GDP,share,2021,85.8648,86.7438
+PrvCon %GDP,share,2022,86.6223,88.0584
+PrvCon %GDP,share,2023,89.0933,91.8701
+PrvCon %GDP,share,2024,87.0282,87.5048
+GovCon %GDP,share,2019,9.9194,10.6189
+GovCon %GDP,share,2020,9.9847,10.5086
+GovCon %GDP,share,2021,9.8332,10.1124
+GovCon %GDP,share,2022,9.1925,9.5795
+GovCon %GDP,share,2023,8.9754,8.4318
+GovCon %GDP,share,2024,8.2692,7.4941
+GFCF %GDP,share,2019,11.6869,11.3161
+GFCF %GDP,share,2020,10.6326,10.5690
+GFCF %GDP,share,2021,12.7480,12.8258
+GFCF %GDP,share,2022,11.9586,11.9991
+GFCF %GDP,share,2023,11.8817,11.6249
+GFCF %GDP,share,2024,12.2056,12.1129
+Stocks %GDP,share,2019,1.2077,0.3273
+Stocks %GDP,share,2020,3.0918,2.4512
+Stocks %GDP,share,2021,3.8065,2.9993
+Stocks %GDP,share,2022,5.2133,4.4026
+Stocks %GDP,share,2023,3.1395,2.3977
+Stocks %GDP,share,2024,2.9016,3.8338
+Exports %GDP,share,2019,5.3293,5.9804
+Exports %GDP,share,2020,4.4884,5.2281
+Exports %GDP,share,2021,4.6428,5.5307
+Exports %GDP,share,2022,4.6813,5.2605
+Exports %GDP,share,2023,5.4476,6.1481
+Exports %GDP,share,2024,4.0371,4.9976
+Imports %GDP,share,2019,18.4364,20.3051
+Imports %GDP,share,2020,17.6533,19.7617
+Imports %GDP,share,2021,16.8954,21.3057
+Imports %GDP,share,2022,17.6681,22.4426
+Imports %GDP,share,2023,18.5375,23.2938
+Imports %GDP,share,2024,14.2777,19.1339
+CA balance %GDP,share,2019,-7.1967,-7.8527
+CA balance %GDP,share,2020,-7.5856,-6.6817
+CA balance %GDP,share,2021,-6.9584,-7.2571
+CA balance %GDP,share,2022,-8.6733,-9.8903
+CA balance %GDP,share,2023,-8.5575,-9.5218
+CA balance %GDP,share,2024,-6.0734,-5.9626
+Ext public debt %GDP,share,2019,8.7492,11.0207
+Ext public debt %GDP,share,2020,9.2913,10.5448
+Ext public debt %GDP,share,2021,9.0237,12.3794
+Ext public debt %GDP,share,2022,8.2746,12.4192
+Ext public debt %GDP,share,2023,8.7873,11.1385
+Ext public debt %GDP,share,2024,8.1725,11.1264
+Gov domestic debt %GDP,share,2019,24.2365,25.1019
+Gov domestic debt %GDP,share,2020,27.6917,28.6727
+Gov domestic debt %GDP,share,2021,31.8883,28.3194
+Gov domestic debt %GDP,share,2022,34.8694,31.3144
+Gov domestic debt %GDP,share,2023,37.6338,28.0139
+Gov domestic debt %GDP,share,2024,37.3721,24.5187
+Unemployment %,share,2019,1.1288,1.0400
+Unemployment %,share,2020,1.1547,1.0300
+Unemployment %,share,2021,1.1820,1.1200
+Unemployment %,share,2022,1.1809,0.9100
+Unemployment %,share,2023,1.3152,0.9100
+Unemployment %,share,2024,1.6690,0.9200
+Agriculture real VA growth %,growth,2020,1.1364,2.8036
+Agriculture real VA growth %,growth,2021,2.6304,-1.1108
+Agriculture real VA growth %,growth,2022,3.2561,2.3574
+Agriculture real VA growth %,growth,2023,-0.1221,-3.2259
+Agriculture real VA growth %,growth,2024,5.7734,4.5336
+Industry real VA growth %,growth,2020,-2.0935,-2.5072
+Industry real VA growth %,growth,2021,2.2813,4.8685
+Industry real VA growth %,growth,2022,-0.7253,2.0114
+Industry real VA growth %,growth,2023,2.5015,1.7241
+Industry real VA growth %,growth,2024,2.0936,4.7815
+Manufacturing real VA growth %,growth,2020,-0.1155,0.4251
+Manufacturing real VA growth %,growth,2021,0.8148,3.5725
+Manufacturing real VA growth %,growth,2022,-0.9588,1.0022
+Manufacturing real VA growth %,growth,2023,1.7866,6.7457
+Manufacturing real VA growth %,growth,2024,4.4339,-6.9696
+Services real VA growth %,growth,2020,-0.2140,-1.8775
+Services real VA growth %,growth,2021,0.4797,3.3681
+Services real VA growth %,growth,2022,-0.1289,0.0305
+Services real VA growth %,growth,2023,3.3550,7.3995
+Services real VA growth %,growth,2024,2.9365,4.6323
+Mining (B) real VA growth %,growth,2020,-13.7700,-14.1044
+Mining (B) real VA growth %,growth,2021,-0.4373,-3.4850
+Mining (B) real VA growth %,growth,2022,4.0555,2.3282
+Mining (B) real VA growth %,growth,2023,7.1113,4.4365
+Mining (B) real VA growth %,growth,2024,-12.0987,-13.8691
+Real PrvCon growth %,growth,2020,-0.4963,-1.2500
+Real PrvCon growth %,growth,2021,-1.6381,2.3334
+Real PrvCon growth %,growth,2022,1.6948,2.9019
+Real PrvCon growth %,growth,2023,5.8376,6.5985
+Real PrvCon growth %,growth,2024,0.5656,1.5257
+Real GovCon growth %,growth,2020,2.3935,2.3935
+Real GovCon growth %,growth,2021,3.1011,3.1011
+Real GovCon growth %,growth,2022,-3.9936,-3.9936
+Real GovCon growth %,growth,2023,1.4123,1.4123
+Real GovCon growth %,growth,2024,2.7844,2.7844
+Real GFCF growth %,growth,2020,-5.8371,-4.7212
+Real GFCF growth %,growth,2021,17.0621,18.3245
+Real GFCF growth %,growth,2022,-3.2596,1.5336
+Real GFCF growth %,growth,2023,5.2192,5.8560
+Real GFCF growth %,growth,2024,-2.2313,2.0739
+Real exports growth %,growth,2020,-9.1448,-5.4345
+Real exports growth %,growth,2021,-2.3666,-0.6357
+Real exports growth %,growth,2022,-4.7084,-9.4951
+Real exports growth %,growth,2023,11.1102,11.6758
+Real exports growth %,growth,2024,-7.6018,-2.3161
+Real imports growth %,growth,2020,1.7195,1.3372
+Real imports growth %,growth,2021,-0.3805,13.6242
+Real imports growth %,growth,2022,2.5152,9.1660
+Real imports growth %,growth,2023,10.2022,13.9584
+Real imports growth %,growth,2024,-11.0733,-10.1238
+Real GDP growth %,growth,2020,-0.0947,-0.0947
+Real GDP growth %,growth,2021,1.6722,1.6722
+Real GDP growth %,growth,2022,1.3358,1.3358
+Real GDP growth %,growth,2023,1.8127,1.8127
+Real GDP growth %,growth,2024,4.6097,4.6097
+CPI/deflator idx,index,2019,100.0000,100.0000
+CPI/deflator idx,index,2020,99.7531,99.7641
+CPI/deflator idx,index,2021,98.7652,101.7224
+CPI/deflator idx,index,2022,99.4086,103.5269
+CPI/deflator idx,index,2023,99.3835,108.6296
+CPI/deflator idx,index,2024,102.0307,108.3243
+Fuel: informal share of supply %,index,2019,0.0000,
+Fuel: informal share of supply %,index,2020,0.0000,
+Fuel: informal share of supply %,index,2021,0.0000,
+Fuel: informal share of supply %,index,2022,0.0000,
+Fuel: informal share of supply %,index,2023,0.0000,
+Fuel: informal share of supply %,index,2024,6.1161,
+Fuel: market price / pump price,index,2019,100.0000,
+Fuel: market price / pump price,index,2020,104.0455,
+Fuel: market price / pump price,index,2021,100.0000,
+Fuel: market price / pump price,index,2022,100.0000,
+Fuel: market price / pump price,index,2023,100.0000,
+Fuel: market price / pump price,index,2024,334.4422,335.4167
+Fuel: share of official FX %,index,2019,35.5155,
+Fuel: share of official FX %,index,2020,36.9741,
+Fuel: share of official FX %,index,2021,38.7554,
+Fuel: share of official FX %,index,2022,48.8240,
+Fuel: share of official FX %,index,2023,49.7255,
+Fuel: share of official FX %,index,2024,43.9341,
+Chemicals: share of official FX %,index,2019,40.2499,
+Chemicals: share of official FX %,index,2020,48.9467,
+Chemicals: share of official FX %,index,2021,45.1717,
+Chemicals: share of official FX %,index,2022,44.3643,
+Chemicals: share of official FX %,index,2023,36.9982,
+Chemicals: share of official FX %,index,2024,45.2071,
+Official FX inflow idx (USD),index,2019,100.0000,
+Official FX inflow idx (USD),index,2020,82.0576,
+Official FX inflow idx (USD),index,2021,89.3447,
+Official FX inflow idx (USD),index,2022,103.6073,
+Official FX inflow idx (USD),index,2023,120.2457,
+Official FX inflow idx (USD),index,2024,107.4143,
